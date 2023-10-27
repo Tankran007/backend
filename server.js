@@ -322,6 +322,6 @@ app.put('/com/:id', (req, res) => {
         }
     });
 
-app.listen(5500, () => {
-    console.log("Server started on port 5500");
+app.listen(5600, () => {
+    console.log("Server started on port 5600");
     });
