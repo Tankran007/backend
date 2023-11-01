@@ -21,16 +21,16 @@ const MusicAlbums = sequelize.define('MusicAlbum', {
         
     },
     musicformat: {
-        type: Sequelize.INTEGER,
+        type: Sequelize.STRING,
         allowNull: false
         
     },
     music: {
-        type: Sequelize.INTEGER,
+        type: Sequelize.STRING,
         allowNull: false
     },
     Composer: {
-        type: Sequelize.INTEGER,
+        type: Sequelize.STRING,
         allowNull: false
     }
     
